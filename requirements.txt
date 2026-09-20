@@ -1,0 +1,20 @@
+# requirements.txt — pinned versions for Python 3.11
+# 專案：UCM × SARIMAX 動態融合（statsmodels）
+# 說明：此清單為「完整且可重現」版本（含必要轉置依賴），不含任何深度學習框架。
+
+# --- 科學運算核心 ---
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.2.2
+
+# --- 時間序列與統計建模 ---
+statsmodels==0.14.2
+patsy==0.5.6
+
+# --- Excel 讀寫（.xlsx） ---
+openpyxl==3.1.5
+et-xmlfile==1.1.0
+
+# --- 時區/日期工具（pandas 在 Windows 上常用） ---
+python-dateutil==2.9.0.post0
+tzdata==2024.1
